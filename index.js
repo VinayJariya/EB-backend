@@ -3,7 +3,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 
 const MONGODB_URI =
-  "mongodb+srv://vjariya:Vinay7mongodb@cluster0-ypylx.mongodb.net/engineerBabu";
+  "mongodb+srv://username:password@cluster0-ypylx.mongodb.net/engineerBabu";
 
 const { userRouter } = require("./routes/user.js");
 const { hobbyRouter } = require("./routes/hobby.js");
